@@ -1,0 +1,26 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+
+    See global.jelly for a general discussion about jelly script.
+  -->
+
+  <!--
+    Creates a text field that shows the value of the "name" property.
+    When submitted, it will be passed to the corresponding constructor parameter.
+  -->
+ <f:entry title="Disable" field="disable">
+        <f:checkbox  checked="${instance.disable}"/>
+ </f:entry>
+ <f:entry title="Weibo Account" field="weiboAccountId">
+        <select class="setting-input" name="weiboAccountId">
+               <j:forEach var="weiboAccount" items="${descriptor.weiboAccounts}">
+                    <f:option selected="${weiboAccount.id==instance.weiboAccountId}">${weiboAccount.id}</f:option>
+                </j:forEach>
+              </select>
+            </f:entry>
+  <f:entry title="Publish Content" field="publishContent">
+    <f:textbox />
+  </f:entry>
+</j:jelly>
+
