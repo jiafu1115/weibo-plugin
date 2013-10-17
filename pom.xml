@@ -72,9 +72,9 @@
 		</plugins>
 	</build>
 	<scm>
-		<connection>scm:git:ssh://github.com/jenkinsci/MYPLLUGINNAME.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/MYPLUGINNAME.git</developerConnection>
-		<url>https://github.com/jenkinsci/MYPLUGINNAME</url>
+		<connection>scm:git:ssh://github.com/jenkinsci/weibo-plugin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/weibo-plugin.git</developerConnection>
+		<url>https://github.com/jenkinsci/weibo-plugin.git</url>
 	</scm>
 
 	<distributionManagement>
