@@ -74,7 +74,7 @@
 	<scm>
 		<connection>scm:git:ssh://github.com/jenkinsci/weibo-plugin.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/weibo-plugin.git</developerConnection>
-		<url>https://github.com/jenkinsci/weibo-plugin.git</url>
+		<url>https://github.com/jenkinsci/weibo-plugin</url>
 	</scm>
 
 	<distributionManagement>
