@@ -53,7 +53,7 @@ import org.kohsuke.stapler.StaplerRequest;
 public class WeiboNotifier extends Notifier {
 
     public static final String DEFAULT_CONTENT_KEY = "${DEFAULT_CONTENT}";
-    public static final String DEFAULT_CONTENT_VALUE = "${BUILD_STATUS}  ${JOB_NAME}:${BUILD_NUMBER}  ${JOB_URL}";
+    public static final String DEFAULT_CONTENT_VALUE = "${BUILD_STATUS}  ${JOB_NAME} #${BUILD_NUMBER}  ${JOB_URL}";
 
     private final boolean disable;
     private final String weiboAccountId;
