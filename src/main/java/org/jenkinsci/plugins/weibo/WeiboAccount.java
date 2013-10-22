@@ -12,6 +12,11 @@ public class WeiboAccount implements Serializable{
     private String password;
 
 
+    /**
+     * @param id
+     * @param username
+     * @param password
+     */
     @DataBoundConstructor
     public WeiboAccount(String id, String username, String password) {
         super();
