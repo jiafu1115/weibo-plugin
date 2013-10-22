@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import org.kohsuke.stapler.DataBoundConstructor;
 
-public class WeiboAccount    implements Serializable{
+public class WeiboAccount implements Serializable{
 
     /**
      *
