@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
@@ -7,8 +6,8 @@
 		<version>1.466</version>
 	</parent>
 
-	<artifactId>weibo4jenkins</artifactId>
-	<version>1.0.0</version>
+	<artifactId>weibo</artifactId>
+	<version>1.0.1</version>
 	<packaging>hpi</packaging>
 	<name>Weibo Plugin</name>
 	<url>https://wiki.jenkins-ci.org/display/JENKINS/Weibo+Plugin</url>
@@ -86,7 +85,7 @@
 
 	<developers>
 		<developer>
-			<id>jiafu</id>
+			<id>jiafu1115</id>
 			<name>fu.jian</name>
 			<email>fujian1115@gmail.com</email>
 		</developer>
